@@ -5,6 +5,13 @@ FORGE
     puppetlabs-stdlib (4.6.0)
 
 GIT
+  remote: git://github.com/gildas/puppet-homebrew.git
+  ref: master
+  sha: cd85d0e65e253cb2ac3ae2a421dd8cd2be200689
+  specs:
+    gildas-homebrew (0.4.16)
+
+GIT
   remote: git://github.com/maestrodev/puppet-android.git
   ref: v1.2.0
   sha: 6131445a669c4c0ddf2323ed0b51906f3b19993f
@@ -22,5 +29,6 @@ GIT
 
 DEPENDENCIES
   aafwu00-android (>= 0)
+  gildas-homebrew (>= 0)
   puppet-hiera (>= 0)
 

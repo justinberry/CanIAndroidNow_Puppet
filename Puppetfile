@@ -1,3 +1,6 @@
+mod 'gildas-homebrew',
+  :git => "git://github.com/gildas/puppet-homebrew.git"
+
 mod 'aafwu00-android', 
   :git => "git://github.com/maestrodev/puppet-android.git",
   :ref => 'v1.2.0'
