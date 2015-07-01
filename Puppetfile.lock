@@ -5,6 +5,13 @@ FORGE
     puppetlabs-stdlib (4.6.0)
 
 GIT
+  remote: git://github.com/drogerschariot/puppet-oracle-java.git
+  ref: master
+  sha: b3a56e7bfc332eab12d6e5557eb40243ca88146d
+  specs:
+    drogerschariot-puppet-oracle-java (0.0.1)
+
+GIT
   remote: git://github.com/gildas/puppet-homebrew.git
   ref: master
   sha: cd85d0e65e253cb2ac3ae2a421dd8cd2be200689
@@ -29,6 +36,7 @@ GIT
 
 DEPENDENCIES
   aafwu00-android (>= 0)
+  drogerschariot-puppet-oracle-java (>= 0)
   gildas-homebrew (>= 0)
   puppet-hiera (>= 0)
 
